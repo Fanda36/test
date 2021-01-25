@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "dependencies": {
+    "aws-sdk": "^2.820.0"
+  },
+  "devDependencies": {
+    "@pulumi/aws": "^3.0.0",
+    "@pulumi/awsx": "^0.20.0",
+    "@pulumi/pulumi": "^2.0.0",
+    "@types/fs-extra": "^9.0.6",
+    "@types/node": "^14.14.20",
+    "@types/aws-lambda": "^8.10.70",
+    "fs-extra": "^9.0.1"
+  },
+  "scripts": {
+    "build": "../node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
